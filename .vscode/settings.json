@@ -1,0 +1,5 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.sourceDirectory": "/Users/erbolmakeev/Downloads/my_flutter_bonus_app/linux",
+    "git.ignoreLimitWarning": true
+}
