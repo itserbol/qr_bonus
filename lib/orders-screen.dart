@@ -14,19 +14,21 @@ class OrderScreen extends StatelessWidget {
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500),
         ),
       ),
-      body: const SingleChildScrollView(
-        child: Column(
-          children: [
-            Padding(
-              padding: EdgeInsets.all(16.0),
-              child: Center(
-                child: Text(
-                  'Здесь будут ваши заказы!',
-                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600, color: Colors.white),
+      body: const Center(
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              Padding(
+                padding: EdgeInsets.all(16.0),
+                child: Center(
+                  child: Text(
+                    'Здесь будут ваши заказы!',
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.white),
+                  ),
                 ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
