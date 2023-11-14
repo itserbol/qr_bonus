@@ -1,5 +1,5 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
-import 'package:flutter_qr/QR-screen.dart';
 
 class RestaurantsScreen extends StatelessWidget {
   const RestaurantsScreen({super.key});
@@ -43,23 +43,12 @@ class RestaurantsScreen extends StatelessWidget {
               margin: const EdgeInsets.only(left: 10, right: 10, top: 10),
               child: TextFormField(
                 keyboardType: TextInputType.name,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   hintText: 'Компании рядом',
-                  hintStyle: const TextStyle(color: Colors.white),
-                  fillColor: const Color.fromARGB(255, 59, 59, 59),
+                  hintStyle: TextStyle(color: Colors.white),
+                  fillColor: Color.fromARGB(255, 59, 59, 59),
                   filled: true,
-                  prefixIcon: const Icon(Icons.search, color: Colors.white, size: 35),
-                  suffixIcon: IconButton(
-                    icon: const Icon(Icons.qr_code_scanner_outlined, color: Colors.white,),
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => const QRCodeScreen(),
-                        ),
-                      );
-                    },
-                  ),
+                  prefixIcon: Icon(Icons.search, color: Colors.white, size: 35),
                 ),
                 style: const TextStyle(fontSize: 16.0, color: Colors.white),
                 cursorColor: Colors.white,
