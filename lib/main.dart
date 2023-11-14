@@ -29,16 +29,21 @@ class MyApp extends StatelessWidget {
             return MaterialPageRoute(builder: (context) => MessageReceivedScreen());
           case '/home-screen':
             return MaterialPageRoute(builder: (context) => const HomePage());
+          case '/menu-screen':
+            return MaterialPageRoute(builder: (context) => const HomePage());
           case '/QR-screen':
             return MaterialPageRoute(builder: (context) => const QRCodeScreen());
           case '/restaurants-screen':
             return MaterialPageRoute(builder: (context) => const RestaurantsScreen());
+          case '/order-screen':
+            return MaterialPageRoute(builder: (context) => const HomePage());
           case '/profile-screen':
             return MaterialPageRoute(builder: (context) => const ProfileScreen());
         }
         return null;
       },
       theme: ThemeData(
+        fontFamily: "Montserrat",
         appBarTheme: 
         const AppBarTheme(
         backgroundColor: Color.fromARGB(255, 0, 0, 0),),

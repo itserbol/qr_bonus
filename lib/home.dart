@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_qr/restaurants-screen.dart';
+import 'package:flutter_qr/menu.dart';
+
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -155,7 +156,7 @@ class _HomePageState extends State<HomePage> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const RestaurantsScreen(),
+                            builder: (context) => const MenuScreen(),
                           ),
                         );
                       },
@@ -168,7 +169,7 @@ class _HomePageState extends State<HomePage> {
                         backgroundColor: MaterialStateProperty.all<Color>(const Color.fromARGB(255,131,76,255)),
                         padding: MaterialStateProperty.all<EdgeInsetsGeometry>(const EdgeInsets.symmetric(horizontal: 10, vertical: 5)),
                       ),
-                      child: const Text('Выбрать ресторан', style: TextStyle(color: Color.fromARGB(255, 255, 255, 255), fontSize: 13)),
+                      child: const Text('К меню', style: TextStyle(color: Color.fromARGB(255, 255, 255, 255), fontSize: 13)),
                     ),
                   )
                 ],

@@ -1,16 +1,15 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
 
-class OrderScreen extends StatelessWidget {
-  const OrderScreen({Key? key}) : super(key: key);
+class MenuScreen extends StatelessWidget {
+  const MenuScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: false,
         title: const Text(
-          'Ваши заказы',
+          'Меню',
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500),
         ),
       ),
@@ -22,7 +21,7 @@ class OrderScreen extends StatelessWidget {
                 padding: EdgeInsets.all(16.0),
                 child: Center(
                   child: Text(
-                    'Здесь будут ваши заказы!',
+                    'Здесь будет меню блюд!',
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.white),
                   ),
                 ),
