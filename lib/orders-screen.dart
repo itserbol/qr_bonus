@@ -11,7 +11,7 @@ class OrderScreen extends StatelessWidget {
         automaticallyImplyLeading: false,
         title: const Text(
           'Ваши заказы',
-          style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500),
+          style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500, color: Colors.white),
         ),
       ),
       body: const Center(

@@ -10,8 +10,9 @@ class MenuScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text(
           'Меню',
-          style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500),
+          style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500, color: Colors.white),
         ),
+        iconTheme: const IconThemeData(color: Colors.white), 
       ),
       body: const Center(
         child: SingleChildScrollView(

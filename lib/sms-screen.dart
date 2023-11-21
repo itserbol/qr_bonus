@@ -128,7 +128,7 @@ class MessageReceivedScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(30.0),
                   ),
                 ),
-                child: const Text('Продолжить'),
+                child: const Text('Продолжить', style: TextStyle(color: Colors.white),),
               ),
             ),
           ],

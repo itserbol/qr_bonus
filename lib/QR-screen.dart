@@ -9,7 +9,7 @@ class QRCodeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
-        title: const Text('Сканируйте QR-code'),
+        title: const Text('Сканируйте QR-code',style: TextStyle(color: Colors.white),),
       ),
       body: Center(
         child: Column(
