@@ -1,6 +1,6 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
-import 'package:flutter_qr/navigator.dart';
+import 'package:qr_bonus/navigator.dart';
 
 
 class MessageReceivedScreen extends StatelessWidget {

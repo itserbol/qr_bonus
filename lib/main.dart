@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_qr/QR-screen.dart';
-import 'package:flutter_qr/home.dart';
-import 'package:flutter_qr/phone-screen.dart';
-import 'package:flutter_qr/profile-screen.dart';
-import 'package:flutter_qr/restaurants-screen.dart';
-import 'package:flutter_qr/sms-screen.dart';
+import 'package:qr_bonus/QR-screen.dart';
+import 'package:qr_bonus/home.dart';
+import 'package:qr_bonus/phone-screen.dart';
+import 'package:qr_bonus/profile-screen.dart';
+import 'package:qr_bonus/restaurants-screen.dart';
+import 'package:qr_bonus/sms-screen.dart';
 
 void main() {
   runApp(const MyApp());

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_qr/menu.dart';
+import 'package:qr_bonus/menu.dart';
 
 
 class HomePage extends StatefulWidget {

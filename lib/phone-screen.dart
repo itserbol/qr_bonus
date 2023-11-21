@@ -1,7 +1,7 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_qr/sms-screen.dart';
+import 'package:qr_bonus/sms-screen.dart';
 
 
 class PhoneAuthScreen extends StatefulWidget {
